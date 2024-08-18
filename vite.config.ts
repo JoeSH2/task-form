@@ -8,7 +8,7 @@ export default defineConfig({
     jsxInject: `import React from 'react'`,
   },
   build: {
-    outDir: "build"
+    outDir: "dist"
   },
   resolve: {
     alias: {
