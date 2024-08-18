@@ -1,0 +1,29 @@
+.app {
+  --main-color: #ffffff;
+  --secondary-color: #f5f5f5;
+  --special-color: #00ac9f;
+  --special-hover-color: #00cac2;
+  --error-color: #ff0000;
+  --error-hover-color: #c51a1a;
+  --grey-color: #999999;
+  --light-grey-color: #e5e4e4;
+
+  --disabled-color: rgba(0, 0, 0, 0.15);
+  --box-shadow: 0px 0px 10px 2px #c8ccd2;
+
+  --text-color: #000000;
+  --text-secondary-color: #262626;
+  --inv-text-color: #ffffff;
+
+  --font-main: 'PT Sans Narrow', sans-serif;
+  --font-secondary: 'PT Sans Narrow', sans-serif;
+  --font-S: 12px;
+  --font-M: 16px;
+  --font-L: 21px;
+  --font-XL: 30px;
+
+  --z-level-1: 1;
+  --z-level-2: 2;
+  --z-level-3: 3;
+  --z-level-4: 4;
+}

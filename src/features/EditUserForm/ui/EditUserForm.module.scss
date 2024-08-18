@@ -1,0 +1,48 @@
+.EditUserForm {
+  display: block;
+}
+.inputBlock {
+  &:last-child {
+    margin-bottom: 40px;
+  }
+}
+.label {
+  flex: 0 0 40%;
+}
+.input {
+  flex: 1 0 auto;
+}
+.infoBlock {
+  margin-top: 40px;
+  display: grid;
+  position: relative;
+  gap: 40px;
+}
+.bottomLine {
+  border-bottom: 1px solid var(--light-grey-color);
+}
+.blockSubmit {
+  display: flex;
+  align-items: center;
+}
+.infoSubmit {
+  font-family: var(--font-main);
+  font-size: var(--font-M);
+  color: var(--grey-color);
+  padding: 0 0 0 15px;
+}
+.wrapperCheckbox {
+  display: flex;
+  margin-bottom: 40px;
+  label {
+    font-size: var(--font-L);
+  }
+}
+.rowCheckbox {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  span {
+    font-size: var(--font-M);
+  }
+}
